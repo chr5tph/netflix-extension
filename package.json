@@ -1,15 +1,17 @@
 {
   "name": "netflix-extension",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint --ext js extension",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@types/chrome": "^0.0.133"
+    "@types/chrome": "^0.0.164",
+    "eslint": "^8.3.0"
   }
 }
